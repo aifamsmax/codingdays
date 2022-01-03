@@ -5,8 +5,7 @@ class Solution{
     long long minTime(long long a[], long long b[], long long n)
     {
         // Your code goes here 
-        long long int c=0;
-        long long int d=0;
+        long long int c=0,d=0;
         for(int i=0;i<n;i++)
         c+=(i&1)?a[i]:b[i];
         for(int i=0;i<n;i++)
